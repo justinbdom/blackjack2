@@ -35,7 +35,7 @@ public class Card {
 
   @NonNull
   @ColumnInfo(index = true)
-  private Date updated = new Date();
+  private Date updated  = new Date();
 
   @ColumnInfo(name = "shoe_id", index = true)
   private Long shoeId;
