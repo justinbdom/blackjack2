@@ -33,6 +33,15 @@
       style="@style/HardValue"/>
 
     <TextView
+      android:id="@+id/hard_soft_divider"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:text="@string/hard_soft_divider"
+      style="@style/SoftValue"/>
+
+
+    <TextView
       android:id="@+id/soft_value"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
